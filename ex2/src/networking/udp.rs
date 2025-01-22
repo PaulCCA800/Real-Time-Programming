@@ -1,7 +1,7 @@
 use std::net::UdpSocket;
 use std::borrow::Cow;
 
-fn main(){
+pub fn udp_listener(){
 
     let socket:UdpSocket = UdpSocket::bind("0.0.0.0:30000").unwrap();
 
